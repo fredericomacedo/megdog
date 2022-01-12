@@ -1,0 +1,139 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:20
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-man-doing-pushups:before { content: "\f100"; }
+.flaticon-man-flexing-knees-with-arms-up:before { content: "\f101"; }
+.flaticon-man-flexing-waist:before { content: "\f102"; }
+.flaticon-man-flexing-waist-down:before { content: "\f103"; }
+.flaticon-man-flexing-waist-to-feet:before { content: "\f104"; }
+.flaticon-man-laying-on-his-back-with-his-knees-on-his-chest:before { content: "\f105"; }
+.flaticon-man-on-floor-flexing-backwards:before { content: "\f106"; }
+.flaticon-man-on-his-knees:before { content: "\f107"; }
+.flaticon-man-on-his-knees-stretching-arms-on-floor:before { content: "\f108"; }
+.flaticon-man-on-his-knees-stretching-back:before { content: "\f109"; }
+.flaticon-man-on-his-knees-stretching-side-view:before { content: "\f10a"; }
+.flaticon-man-on-his-knees-with-head-on-floor:before { content: "\f10b"; }
+.flaticon-man-on-squat-position-turning-waist:before { content: "\f10c"; }
+.flaticon-man-on-the-floor-flexing-body:before { content: "\f10d"; }
+.flaticon-man-sitting-on-the-floor-stretching-leg-and-waist:before { content: "\f10e"; }
+.flaticon-man-squatting:before { content: "\f10f"; }
+.flaticon-man-standing-on-his-right-leg-stretching-left-leg-and-right-arm:before { content: "\f110"; }
+.flaticon-man-standing-on-one-leg:before { content: "\f111"; }
+.flaticon-man-standing-on-right-leg-stretching-leg-and-arms:before { content: "\f112"; }
+.flaticon-man-stretching-back:before { content: "\f113"; }
+.flaticon-man-stretching-both-arms-and-legs:before { content: "\f114"; }
+.flaticon-man-stretching-left-leg-and-bending-waist:before { content: "\f115"; }
+.flaticon-man-stretching-leg-and-arms:before { content: "\f116"; }
+.flaticon-man-stretching-legs-and-flexing-body:before { content: "\f117"; }
+.flaticon-man-stretching-legs-and-waist:before { content: "\f118"; }
+.flaticon-man-supporting-himself-on-one-arm-and-stretching-right-arm:before { content: "\f119"; }
+.flaticon-man-up-flexing-to-right:before { content: "\f11a"; }
+.flaticon-woman-bending-waist-to-feet-with-stretching-leg:before { content: "\f11b"; }
+.flaticon-woman-flexing-body:before { content: "\f11c"; }
+.flaticon-woman-flexing-waist-to-feet:before { content: "\f11d"; }
+.flaticon-woman-honding-her-body-with-arms-and-legs:before { content: "\f11e"; }
+.flaticon-woman-laying-down-lifting-head:before { content: "\f11f"; }
+.flaticon-woman-laying-on-the-floor-stretching-right-leg:before { content: "\f120"; }
+.flaticon-woman-lifting-left-leg:before { content: "\f121"; }
+.flaticon-woman-on-her-knees-looking-up:before { content: "\f122"; }
+.flaticon-woman-on-her-knees-stretching-arms:before { content: "\f123"; }
+.flaticon-woman-on-lotus-position-front-view:before { content: "\f124"; }
+.flaticon-woman-sitting-on-the-floor-stretching-head:before { content: "\f125"; }
+.flaticon-woman-sitting-on-the-floor-stretching-left-leg:before { content: "\f126"; }
+.flaticon-woman-standing-on-her-arms:before { content: "\f127"; }
+.flaticon-woman-standing-on-one-leg-lifting-left-leg:before { content: "\f128"; }
+.flaticon-woman-standing-on-right-leg-with-left-leg-up:before { content: "\f129"; }
+.flaticon-woman-stretching-and-flexing-legs-with-arms-up:before { content: "\f12a"; }
+.flaticon-woman-stretching-arms-and-flexing-legs:before { content: "\f12b"; }
+.flaticon-woman-stretching-back:before { content: "\f12c"; }
+.flaticon-woman-stretching-her-body-on-the-floor:before { content: "\f12d"; }
+.flaticon-woman-stretching-left-leg:before { content: "\f12e"; }
+.flaticon-woman-stretching-on-floor:before { content: "\f12f"; }
+.flaticon-woman-upside-down-stretching-body:before { content: "\f130"; }
+.flaticon-woman-with-left-leg-up-and-flexed:before { content: "\f131"; }
+    
+    $font-Flaticon-man-doing-pushups: "\f100";
+    $font-Flaticon-man-flexing-knees-with-arms-up: "\f101";
+    $font-Flaticon-man-flexing-waist: "\f102";
+    $font-Flaticon-man-flexing-waist-down: "\f103";
+    $font-Flaticon-man-flexing-waist-to-feet: "\f104";
+    $font-Flaticon-man-laying-on-his-back-with-his-knees-on-his-chest: "\f105";
+    $font-Flaticon-man-on-floor-flexing-backwards: "\f106";
+    $font-Flaticon-man-on-his-knees: "\f107";
+    $font-Flaticon-man-on-his-knees-stretching-arms-on-floor: "\f108";
+    $font-Flaticon-man-on-his-knees-stretching-back: "\f109";
+    $font-Flaticon-man-on-his-knees-stretching-side-view: "\f10a";
+    $font-Flaticon-man-on-his-knees-with-head-on-floor: "\f10b";
+    $font-Flaticon-man-on-squat-position-turning-waist: "\f10c";
+    $font-Flaticon-man-on-the-floor-flexing-body: "\f10d";
+    $font-Flaticon-man-sitting-on-the-floor-stretching-leg-and-waist: "\f10e";
+    $font-Flaticon-man-squatting: "\f10f";
+    $font-Flaticon-man-standing-on-his-right-leg-stretching-left-leg-and-right-arm: "\f110";
+    $font-Flaticon-man-standing-on-one-leg: "\f111";
+    $font-Flaticon-man-standing-on-right-leg-stretching-leg-and-arms: "\f112";
+    $font-Flaticon-man-stretching-back: "\f113";
+    $font-Flaticon-man-stretching-both-arms-and-legs: "\f114";
+    $font-Flaticon-man-stretching-left-leg-and-bending-waist: "\f115";
+    $font-Flaticon-man-stretching-leg-and-arms: "\f116";
+    $font-Flaticon-man-stretching-legs-and-flexing-body: "\f117";
+    $font-Flaticon-man-stretching-legs-and-waist: "\f118";
+    $font-Flaticon-man-supporting-himself-on-one-arm-and-stretching-right-arm: "\f119";
+    $font-Flaticon-man-up-flexing-to-right: "\f11a";
+    $font-Flaticon-woman-bending-waist-to-feet-with-stretching-leg: "\f11b";
+    $font-Flaticon-woman-flexing-body: "\f11c";
+    $font-Flaticon-woman-flexing-waist-to-feet: "\f11d";
+    $font-Flaticon-woman-honding-her-body-with-arms-and-legs: "\f11e";
+    $font-Flaticon-woman-laying-down-lifting-head: "\f11f";
+    $font-Flaticon-woman-laying-on-the-floor-stretching-right-leg: "\f120";
+    $font-Flaticon-woman-lifting-left-leg: "\f121";
+    $font-Flaticon-woman-on-her-knees-looking-up: "\f122";
+    $font-Flaticon-woman-on-her-knees-stretching-arms: "\f123";
+    $font-Flaticon-woman-on-lotus-position-front-view: "\f124";
+    $font-Flaticon-woman-sitting-on-the-floor-stretching-head: "\f125";
+    $font-Flaticon-woman-sitting-on-the-floor-stretching-left-leg: "\f126";
+    $font-Flaticon-woman-standing-on-her-arms: "\f127";
+    $font-Flaticon-woman-standing-on-one-leg-lifting-left-leg: "\f128";
+    $font-Flaticon-woman-standing-on-right-leg-with-left-leg-up: "\f129";
+    $font-Flaticon-woman-stretching-and-flexing-legs-with-arms-up: "\f12a";
+    $font-Flaticon-woman-stretching-arms-and-flexing-legs: "\f12b";
+    $font-Flaticon-woman-stretching-back: "\f12c";
+    $font-Flaticon-woman-stretching-her-body-on-the-floor: "\f12d";
+    $font-Flaticon-woman-stretching-left-leg: "\f12e";
+    $font-Flaticon-woman-stretching-on-floor: "\f12f";
+    $font-Flaticon-woman-upside-down-stretching-body: "\f130";
+    $font-Flaticon-woman-with-left-leg-up-and-flexed: "\f131";
